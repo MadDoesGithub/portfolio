@@ -9,7 +9,7 @@ function Navbar() {
       </div>
       <div class="flex-none hidden px-2 mx-2 lg:flex">
         <div class="flex items-stretch">
-          <a class="btn btn-ghost btn-sm rounded-btn" href="/projects">
+          <a class="btn btn-ghost btn-sm rounded-btn" href="#about-me">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -23,13 +23,13 @@ function Navbar() {
                 d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
               ></path>
             </svg>
-            Projects
+            About Me
           </a>
-          <a class="btn btn-ghost btn-sm rounded-btn" href="/contact">
+          <a class="btn btn-ghost btn-sm rounded-btn" href="#contact-modal">
             <AiFillPhone />
             ㅤContact
           </a>
-          <a class="btn btn-ghost btn-sm rounded-btn" href="/designs">
+          <a class="btn btn-ghost btn-sm rounded-btn" href="https://www.behance.net/collection/186727723/UIUX-Design">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -87,7 +87,7 @@ function Navbar() {
             class="p-2 shadow menu dropdown-content bg-base-100 rounded-box w-52"
           >
             <li>
-              <a href="/projects">
+              <a href="#about-me">
                 {" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -102,17 +102,17 @@ function Navbar() {
                     d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
                   ></path>
                 </svg>
-                Projects
+                About Me
               </a>
             </li>
             <li>
-              <a href="/contact">
+              <a href="#contact-modal">
                 <AiFillPhone />
                 ㅤContact
               </a>
             </li>
             <li>
-              <a href="/designs">
+              <a href="https://www.behance.net/collection/186727723/UIUX-Design">
                 {" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
