@@ -2,7 +2,6 @@ import React from "react";
 
 function Card() {
   return (
-    
     <div
       data-theme="dracula"
       class="hero min-h-screen bg-base-200 rounded-box"
@@ -40,7 +39,7 @@ function Card() {
           >
             Contact
           </a>
-           <p class="mb-2"/>
+          <p class="mb-2" />
           <a
             class="btn btn-md md:btn-md lg:btn-md xl:btn-md btn-outline btn-primary"
             href="#about-me"
@@ -73,28 +72,82 @@ function Card() {
               </div>
             </div>
           </div>
+          <div id="secret" class="modal">
+            <div class="modal-box">
+              <p class="mb-5"><a class="font-semibold link-accent bg-base-200">moonlight</a> </p>
+              <p class="mb=5"><a class="font-semibold link-accent bg-base-200"></a>
+tvvuspnoa, fvb'yl vby tvvuspnoa
+aol spnoa zopulz puav tf lflz
+<br /><br />
+P kpku'a mhss puav svcl dpao aol tvvu,
+P dhsrlk puav svcl dpao aol tvvu,
+dpao tf lflz dpkl vwlu.
+aol spnoa zopulz puav vby lflz.
+<br /> <br />
+P svcl fvb sprl aol tvvu,
+zv ilhbapmbs, fla zv tbjo opkklu.
+iba, aol jyhalz dhpaz mvy iylhrpun
+aol spnoa zopulz puav vby lflz.
+<br /> <br />
+aolyl hyl uv dvykz av klzjypil ovd tbjo dl hss svcl fvb
+dl hwwyljphal fvb tvyl aohu fvb aopur fvb kv.
+huk aol spnoa zopulz puav vby lflz..
+<br /><br />
+yltltily, dl'yl fvby myplukz
+huf aptl fvb'yl kvdu, dl'ss il hyvbuk
+huk aol spnoa zopulz puav vby lflz.
+<br /><br />
+tvvuspnoa, fvb'yl vby tvvuspnoa,
+aol spnoa zopulz puav tf lflz.
+ </p>
+ <p class="mb-5"></p>
+ <p class="md-5 font-semibold link-secondary">je t'aime tellement au clair de lune.</p>
+ <p class="mb-5 font-medium">anyone who solves this will get a prize.</p>
+              <div class="modal-action">
+                <a href="#home" class="btn btn-primary">
+                  Close
+                </a>
+              </div>
+            </div>
+          </div>
           <div id="about-me" class="modal">
             <div class="modal-box">
-<h2 class="mb-5 font-bold">About Me</h2>
-<p class="mb-5">Hey, I'm Mad - a mediocre developer residing in Saudi Arabia. I use Node.js, React.js, TailwindCSS, and a bit of Java for my projects. I am always trying to improve and practice, which has led me to know the coding knowledge I know today.</p>
-<p class="mb-5"></p>
-<p class="mb-5">I own a server providing business, Mad Hosting, and have been providing these services for the past 7 months. I plan to stick for the long run, and run this business as long as I can, and hope for the best 🤞.</p>
+              <h2 class="mb-5 font-bold">About Me</h2>
+              <p class="mb-5">
+                Hey, I'm Mad - a mediocre developer residing in Saudi Arabia. I
+                use Node.js, React.js, TailwindCSS, and a bit of Java for my
+                projects. I am always trying to improve and practice, which has
+                led me to know the coding knowledge I know today.
+              </p>
+              <p class="mb-5"></p>
+              <p class="mb-5">
+                I own a server providing business, Mad Hosting, and have been
+                providing these services for the past 7 months. I plan to stick
+                for the long run, and run this business as long as I can, and
+                hope for the best 🤞.
+              </p>
 
-<h2 class="mb-5 font-bold">Skills / Technologies I'm Learning</h2>
-<ul class="mb-5">
-  <li>Node.js</li>
-  <li>React.js</li>
-  <li>JavaScript</li>
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>Java</li>
-  <li>TailwindCSS</li>
-  <li>Git</li>
-  <li>Linux</li>
-  <li>Docker</li>
-  <li>Microsoft Azure</li>
-  </ul>
-  <a class="mb-5 link link-hover link-accent" href="https://github.com/MadDoesGithub/portfolio"s>This site is open-source and built with 🖤</a>
+              <h2 class="mb-5 font-bold">Skills / Technologies I'm Learning</h2>
+              <ul class="mb-5">
+                <li>Node.js</li>
+                <li>React.js</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java</li>
+                <li>TailwindCSS</li>
+                <li>Git</li>
+                <li>Linux</li>
+                <li>Docker</li>
+                <li>Microsoft Azure</li>
+              </ul>
+              <a
+                class="mb-5 link link-hover link-accent"
+                href="https://github.com/MadDoesGithub/portfolio"
+                s
+              >
+                This site is open-source and built with 🖤
+              </a>
               <div class="modal-action">
                 <a href="#home" class="btn btn-primary">
                   Close
