@@ -1,11 +1,11 @@
-import React from "react";
-import { AiFillPhone } from "react-icons/ai";
+import React from 'react';
+import { AiFillPhone } from 'react-icons/ai';
 
 function Navbar() {
   return (
     <div data-theme="dracula" class="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box" >
       <div class="flex-1 px-2 mx-2">
-        <span class="text-lg font-bold">Mad 🖤</span>
+        <span class="text-lg font-bold">Mad <a class="" href="#secret">🖤</a></span>
       </div>
       <div class="flex-none hidden px-2 mx-2 lg:flex">
         <div class="flex items-stretch">
