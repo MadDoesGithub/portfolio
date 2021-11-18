@@ -12,7 +12,7 @@ function Footer() {
         </pre>
         <pre data-prefix=">" class="text-success">
           <input type="checkbox" id="secret" class="modal-toggle" />
-          <code>Made with </code> <a class="" href="#secret">🖤</a>
+          <code>Made with </code> <a class="">🖤</a>
         </pre>
       </div>
     </>
